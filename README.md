@@ -1,3 +1,25 @@
+<h2 align="center">Thank you for the support</h2>
+
+<p align="center">
+  Thank you everyone for the support - especially those who supported the project through Ko-fi and Revolut.
+</p>
+
+<p align="center">
+  A lot is happening right now, and I am not always able to reply to everyone individually, but I truly appreciate everything you are doing.
+</p>
+
+<p align="center">
+  This gave open-source development a huge push. I am already working on BMCU for Klipper, and I also have plans for new open MMU solutions.
+</p>
+
+<p align="center">
+  Thank you again - this really helps push open-source projects forward.
+</p>
+
+<p align="center">
+  The AGPL license violation issue is still ongoing, as is the issue of limiting the functionality of already purchased printers through updates that introduce device authorization and force the use of Bambu Lab hardware only.
+</p>
+
 ## Update 09.05.2026
 
 Bambu Lab published a statement on their blog. That statement does not give me any direct way to answer the accusations in the same place.
