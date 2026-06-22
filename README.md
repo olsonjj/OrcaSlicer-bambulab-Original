@@ -1,3 +1,16 @@
+## Current version and BMCU / firmware locks
+
+The latest OrcaStudio version with the BMCU slicer-side fix for Bambu Lab A1 / A1 mini printers is available here:
+[OrcaStudio](https://github.com/jarczakpawel/OrcaStudio)
+
+It restores practical slicer usability when A1 / A1 mini firmware sends BMCU errors that otherwise block the whole print workflow.
+
+More about firmware updates limiting functionality, interoperability and ownership of already purchased Bambu Lab printers is available here:
+[BMCU vs firmware locks](https://github.com/jarczakpawel/BMCU-C-PJARCZAK/blob/main/bmcu-vs-firmware-locks.md)
+
+---
+
+
 ## Update 16.05.2026 - `bambu_networking` and AGPL
 
 Bambu Studio is licensed under AGPL v3, but Bambu Lab's own README states that the `bambu networking plugin` is based on non-free libraries. The public Bambu Studio source code shows that this plugin is not an independent add-on: the application downloads it, installs it, versions it against `SLIC3R_VERSION`, dynamically loads it as `bambu_networking.dll` / `libbambu_networking.so` / `libbambu_networking.dylib`, resolves 108 `bambu_network_*` functions, passes C++ structures and callbacks, gives the plugin a callback to the main UI thread, initializes a file-transfer ABI from the same module and uses it for login, monitoring, LAN/cloud print, MakerWorld/MakerLab, camera functions, device messaging, presets, filaments and telemetry.
